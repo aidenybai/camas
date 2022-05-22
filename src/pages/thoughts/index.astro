@@ -1,0 +1,35 @@
+---
+import { parse, isBefore } from 'date-fns';
+import Layout from '../../layouts/Layout.astro';
+
+const posts = await Astro.glob('./*.md')
+  .then(posts => posts
+    .map(({ frontmatter, url }) => ({
+      title: frontmatter.title,
+      description: frontmatter.description,
+      date: parse(frontmatter.date, 'MMMM d, yyyy', new Date()),
+      href: url
+    }))
+    .sort((a, b) => {
+      if (isBefore(a.date, b.date)) return 1;
+      if (isBefore(b.date, a.date)) return -1;
+      return 0;
+    })
+  );
+---
+
+<Layout content={{ title: 'Thoughts 想法' }}>
+  A collection of my ramblings and musings fused into one place.
+  {posts.map(post => {
+    return (
+      <div>
+        <h3>
+          <a href={post.href}>{post.title}</a>
+        </h3>
+        <p>
+          {post.description} <em class="fade">({post.date.toLocaleDateString()})</em>
+        </p>
+      </div>
+    );
+  })}
+</Layout>
