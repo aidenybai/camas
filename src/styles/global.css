@@ -1,9 +1,9 @@
 :root {
-  --background: #fff5ee;
-  --highlight: #fed1b1;
-  --main: #773f29;
-  --bold: #572d1c;
-  --underline: #9a5337a6;
+  --background: #fff;
+  --highlight: #d9d9d9;
+  --main: rgb(27, 27, 27);
+  --bold: #000;
+  --underline: #636363a6;
   --sans: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
@@ -116,7 +116,6 @@ blockquote {
   flex-direction: row;
   margin: 0 0.5rem 0 0;
   border-radius: 100%;
-  animation: spin 4s ease-in-out infinite;
 }
 
 .headshot:hover {
@@ -158,11 +157,4 @@ blockquote {
   overflow-x: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
-}
-
-@keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
 }

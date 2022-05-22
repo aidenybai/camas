@@ -1,17 +1,11 @@
 ---
-setup: |
-  import Age from '../components/Age.jsx';
-title: 'Aiden Bai 白宇彤'
+title: 'Camas Codes'
 layout: ../layouts/Layout.astro
 ---
 
-**◕ ◡ ◕ っ** Hi, I'm Aiden! I'm a <Age client:visible /> y/o from
-Washington State passionate about **HCI research** and
-open source.
+Where students learn to launch products together with code.
 
-[**Thoughts**](/thoughts) · [**Email**](mailto:aiden.bai05@gmail.com) · [**GitHub**](https://github.com/aidenybai) · [**LinkedIn**](https://linkedin.com/in/aidenbai) · [**Resume**](https://www.figma.com/file/n4MkGYBP1CEc3LsXU9z1pT/Resume?node-id=0%3A1)
-
-### Present
+### About us
 
 Right now, I'm exploring **next generation** user interfaces with
 [**✦ Million.js**](https://millionjs.org/), which won **3rd place** grand award in Systems Software at [ISEF 2022](https://www.societyforscience.org/press-release/regeneron-isef-full-awards-2022/#:~:text=SOFT037).

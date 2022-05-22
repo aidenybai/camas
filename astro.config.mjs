@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import solid from '@astrojs/solid-js';
 
 export default defineConfig({
-  site: 'https://aidenybai.com',
+  site: 'https://camas.codes',
   sitemap: true,
   integrations: [solid()],
   markdown: {
