@@ -17,14 +17,14 @@ Camas Codes **DROP** is a grant available to a group of 5 students every month. 
 
 - **Shock factor**: Generates a lot of hype, "something that gets everyone talking"
 - **High community impact**: Makes tangible change to Camas High School
-- **Meaningful & Creative**: Something that you'll put on your resume and show off to the world proudly
+- **Meaningful & creative**: Something that you'll put on your resume and show off to the world proudly
 
 If you're accepted, you receive:
 
 - Up to **$1000** in funding
 - Designated **maker space**
 - **School-wide** advertisement opportunities
-- Mentorship and support
+- **Mentorship** and support
 
 > We're still working out the details... coming soon in 2022-23 year!
 
