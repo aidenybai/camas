@@ -27,10 +27,3 @@ If you're accepted, you receive:
 - **Mentorship** and support
 
 > We're still working out the details... coming soon in 2022-23 year!
-
-### Our Team
-
-- **Aiden Bai** (_President_)
-- **Will Lane** (_Vice President_)
-- **Steven Wu** (_Treasurer_)
-- **Leo Zhao** (_Secretary_)
